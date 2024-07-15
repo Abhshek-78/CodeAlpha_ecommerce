@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buy Details</title>
+    <link rel="stylesheet" href="/static/buydeco.css">
+    
+</head>
+<body>
+    <div class="container">
+        <form method="post" action="{% url "save_enquary" %}" class="form">
+            {% csrf_token %}
+           <h2 align="center">User Details</h2>
+           <label for="name">Name:</label><br>
+           <input type="text" name="First_name" required placeholder="first_name " width="50px"><br>
+           <input type="text"  name="Last_name" placeholder="last name"  width="50px" ><br>
+
+        
+           <label for="address" >Address:</label><br>
+           <input type="text"  name="Room_address" required placeholder="Room number"><br>
+           <input type="text"  name="village_address" required placeholder="village/town"><br>
+           <input type="text"  name="city_address" required placeholder="city"><br>
+           <input type="text" name="state_address" required placeholder="state"><br>
+           <input type="text"  name="pincode_address" required placeholder="pincode"><br>
+
+
+           <label for="phone">Phone:</label><br>
+           <input type="tel" name="phone" required placeholder="Phone_number"><br>
+           <input tyle="tel" name="alt_phone" placeholder="alternate_number" ><br>
+        
+           <button type="submit" value="pay now" >Pay now</button>
+        </form>
+    </div>
+</body>
+</html>

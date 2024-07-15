@@ -1,0 +1,48 @@
+body {
+    top: 0;
+    background: rgb(171, 238, 240);
+}
+
+h2 {
+    margin-top: 2px;
+}
+
+.container {
+    background: crimson;
+    color: #fff;
+    size: 30px;
+    position: absolute;
+    border-radius: 20px;
+    padding: 30px;
+    display: block;
+    border: 3px solid #fff;
+    margin-left: 300px;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 100px;
+}
+
+input {
+    width: 300px;
+    margin-left: 10px;
+    padding: 3px;
+    line-height: 20px;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #fff;
+    background-color: cornsilk;
+}
+
+button {
+    background: rgb(72, 72, 240);
+    width: 200px;
+    height: 50px;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    margin-left: 80px;
+    color: #fff;
+}
